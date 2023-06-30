@@ -1,0 +1,29 @@
+div p {
+  text-align: justify;
+  text-indent: 30px;
+  padding: 7px;
+}
+div img {
+  width: auto;
+  height: 100%;
+  padding: 5px;
+}
+.output {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5vw;
+    list-style-type: none;
+    width: 70%;
+    margin: 0px auto;
+}
+.block {
+    height: 400px;
+    overflow: hidden;
+    padding: 7px;
+}
+.prof {
+    width: 80%;
+    margin: auto;
+}

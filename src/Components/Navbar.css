@@ -1,0 +1,29 @@
+.navbar {
+  position: sticky;
+  top: 0px;
+  height: 70px;
+  background-color: black;
+  opacity: 0.75;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px 0px 30px;
+  margin-bottom: -70px;
+  z-index: 5;
+}
+.navbar_logo {
+    height: 60px;
+    padding-bottom: 5px;
+}
+.navbar_logo img {
+    height: 100%;
+    width: auto;
+}
+
+.navbar_list {
+  display: flex;
+  list-style: none;
+}
+.navbar_item {
+  margin: 0px 20px;
+}
